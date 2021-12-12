@@ -49,6 +49,10 @@ body {
         cursor: pointer;
     }
 
+    .bg img {
+        margin: 120px;
+    }
+
     .card-image:hover .bg {
         background: hsl(178, 100%, 50%);
         opacity: 0.3;
