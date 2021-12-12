@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+
+}
+
+@media (min-width: 320px) {
+    .container {
+        display: grid;
+        place-items: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        display: grid;
+        grid-template-rows: 60% 40%;
+        max-width: 340px;
+        height: 90vh;
+        max-height: 560px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 15px;
+
+    }
+
+    .image {
+        display: flex;
+        height: 90%;
+        margin: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .image:hover {
+        opacity: 0.5;
+    }
+
+    .card-item {
+        margin: 20px;
+
+    }
+
+    .text-item {
+        margin: 10px 0;
+    }
+
+    h2 {
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+
+    h2:hover {
+        color: hsl(178, 100%, 50%);
+    }
+
+    p {
+        font-size: 18px;
+        color: hsl(215, 32%, 59%);
+    }
+
+    .time,
+    .left,
+    .right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    hr {
+        background-color: hsl(215, 32%, 27%);
+        height: 1px;
+        border: 0;
+    }
+
+    .left p {
+        color: hsl(178, 100%, 50%);
+        font-weight: 700;
+    }
+
+    .person {
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .avatar img {
+        width: 35px
+    }
+
+    .round {
+        border-radius: 20px;
+        border: 1px solid hsl(0, 0%, 100%);
+    }
+
+    .name {
+        margin: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .name h3 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 200;
+        cursor: pointer;
+    }
+
+    .name h3:hover {
+        color: hsl(178, 100%, 50%);
+    }
+}
